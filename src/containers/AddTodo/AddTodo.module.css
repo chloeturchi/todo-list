@@ -1,0 +1,33 @@
+.Form {
+    margin: 10px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.Input:focus {
+    outline: none;
+    background-color: rgb(245, 245, 245);
+}
+
+.Button {
+    background-color: rgb(135, 81, 170);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin-top: 10px;
+}

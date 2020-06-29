@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Layout from './hoc/Layout/Layout';
+import TodoListApp from './components/TodoListApp';
+import Auth from './containers/Auth/Auth';
+import Logout from './containers/Auth/Logout/Logout';
+
+const app = () => {
+    let routes = (
+        <Switch>
+            <Route path="/" exact component={TodoListApp}/>
+            <Route path="/auth" exact component={Auth}/>
+            <Route path="/logout" component={Logout} />
+        </Switch>
+    )
+
+    return (
+        <Layout>
+            {routes}
+        </Layout>
+    )
 }
 
-export default App;
+export default app;

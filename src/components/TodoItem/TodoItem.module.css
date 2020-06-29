@@ -1,0 +1,15 @@
+.TodoItem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 75%;
+    height: auto;
+    text-align:right;
+    Background-color: rgb(226, 225, 225)
+}
+
+.Text {
+    display: inline-block;
+    margin: 0px 20px;
+}

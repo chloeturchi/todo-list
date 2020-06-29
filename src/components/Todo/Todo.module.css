@@ -1,0 +1,9 @@
+.Todo {
+    display: inline-block;
+    list-style: none;
+    width: 80%;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 0px 10px;
+    cursor: pointer;
+}

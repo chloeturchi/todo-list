@@ -1,0 +1,12 @@
+.Input {
+    margin-bottom: 40px;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Input:focus {
+    outline: none;
+    background-color: rgb(245, 245, 245);
+  }

@@ -1,0 +1,2 @@
+export const SET_TODOS = 'SET_TODOS';
+export const FETCH_TODOS_FAILED = 'FETCH_TODOS_FAILED';

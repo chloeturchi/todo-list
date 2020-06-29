@@ -1,0 +1,43 @@
+.Auth {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Button {
+    background-color: rgb(135, 81, 170);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Input {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Input:focus {
+    outline: none;
+    background-color: rgb(245, 245, 245);
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}
